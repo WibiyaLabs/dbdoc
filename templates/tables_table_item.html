@@ -1,0 +1,44 @@
+<li>
+    <a id="{item_name}"></a>
+
+    <h2>{item_name}</h2>
+
+    <div class="comment">{table_comment}</div>
+    <div class="tableWrapper">
+        <div class="tableTitle">Fields</div>
+        <table border="0" class="tableFields" cellpading="0" cellspacing="0">
+            <thead>
+            <tr>
+                <td>Field</td>
+                <td>Type</td>
+                <td>Collation</td>
+                <td>Nullable?</td>
+                <td>Key</td>
+                <td>Default</td>
+                <td>Extra</td>
+                <td>Comment</td>
+            </tr>
+            </thead>
+            <tbody>
+                {fields}
+            </tbody>
+        </table>
+    </div>
+    <div class="tableWrapper">
+        <div class="tableTitle">Indexes</div>
+        <table border="0" class="tableFields" cellpading="0" cellspacing="0">
+            <thead>
+            <tr>
+                <td>Index Name</td>
+                <td>Columns</td>
+            </tr>
+            </thead>
+            <tbody>
+                {indexes}
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <a href="#top">top</a>
+    </div>
+</li>

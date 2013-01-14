@@ -1,0 +1,26 @@
+{
+    "name":"dbdoc",
+    "version":"v0.1.0",
+    "description":"Database documentation generator",
+    "keywords":["database", "documentation"],
+    "author":{
+        "name":"Itzik Paz",
+        "email":"spideron@gmail.com",
+        "url":"http://itzikpaz.blogspot.com/"
+    },
+    "directories":{
+        "bin":"./bin",
+        "lib":"./lib"
+    },
+    "main":"./lib/generator.js",
+    "bin":"./bin/dbdoc.js",
+    "repository":{
+        "type":"git",
+        "url":"https://github.com/WibiyaLabs/dbdoc.git"
+    },
+    "dependencies": {
+        "commander": "1.1.1",
+        "mysql": "2.0.0-alpha5"
+    },
+    "readmeFilename": "Readme.md"
+}
