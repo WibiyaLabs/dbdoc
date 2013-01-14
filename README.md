@@ -9,6 +9,10 @@ Database documentation generator utility. currently supports MySql 5.1
 npm install -g dbdoc
 ```
 
+## Dependencies
+    commander - https://github.com/visionmedia/commander.js/
+    mysql - https://github.com/felixge/node-mysql
+
 ## Usage
 
 ```bash
